@@ -12,6 +12,7 @@ from Functions import variable_summaries
 from Functions import variable_with_weight_loss
 from Functions import read_and_decode
 from Functions import input_pipeline
+from LSTM import lstm_detector
 
 log_dir = '../log_with_summaries'
 batch_size = 200
